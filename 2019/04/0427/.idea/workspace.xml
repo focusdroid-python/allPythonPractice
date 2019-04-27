@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cfae05-1118-4d92-8ad6-e44c984ec87d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-查看线程数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-查看当前线程数量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-查看线程执行时间.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0425/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0425/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-继承Tread类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-多线程共享全局变量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-多线程共享全局变量args.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-使用多任务.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-使用多任务.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08-查看线程执行时间.py">
+        <entry file="file://$PROJECT_DIR$/11-多线程共享全局变量args.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="308">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -56,6 +54,9 @@
         <option value="$PROJECT_DIR$/06-查看线程数.py" />
         <option value="$PROJECT_DIR$/07-查看当前线程数量.py" />
         <option value="$PROJECT_DIR$/08-查看线程执行时间.py" />
+        <option value="$PROJECT_DIR$/09-继承Tread类.py" />
+        <option value="$PROJECT_DIR$/10-多线程共享全局变量.py" />
+        <option value="$PROJECT_DIR$/11-多线程共享全局变量args.py" />
       </list>
     </option>
   </component>
@@ -118,12 +119,20 @@
       <option name="presentableId" value="Default" />
       <updated>1556337279893</updated>
       <workItem from="1556337281041" duration="6163000" />
-      <workItem from="1556363688203" duration="4388000" />
+      <workItem from="1556363688203" duration="6999000" />
     </task>
+    <task id="LOCAL-00001" summary="python多线程练习">
+      <created>1556377613581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556377613581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10551000" />
+    <option name="totallyTimeSpent" value="13162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="652" y="27" width="1400" height="973" extended-state="0" />
@@ -154,6 +163,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="python多线程练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="python多线程练习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/02-tcp-server-download.py">
@@ -239,7 +252,37 @@
     <entry file="file://$PROJECT_DIR$/08-查看线程执行时间.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-继承Tread类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-多线程共享全局变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-多线程共享全局变量args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
