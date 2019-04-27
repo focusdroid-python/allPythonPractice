@@ -16,6 +16,7 @@ def main():
     t1 = threading.Thread(target=sing)
     t2 = threading.Thread(target=dance)
     t1.start()
+    print('-----')
     t2.start()
 
 if __name__ == "__main__":
