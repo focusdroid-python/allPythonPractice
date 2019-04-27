@@ -5,7 +5,7 @@ def main():
     tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # 绑定端口
-    tcp_server.bind(('', 8888))
+    tcp_server.bind(('', 8887))
 
     # 监听端口
     tcp_server.listen(128)
