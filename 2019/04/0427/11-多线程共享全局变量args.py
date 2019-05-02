@@ -12,7 +12,7 @@ def test2(temp):
 
 
 def main():
-    # args必须是一个元祖
+    # args必须是一个
     t1 = threading.Thread(target=test1, args=(g_nums,))
     t2 = threading.Thread(target=test2, args=(g_nums,))
     t1.start()
