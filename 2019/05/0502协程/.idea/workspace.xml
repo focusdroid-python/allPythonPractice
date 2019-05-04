@@ -1,200 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e50c3a-0be2-4934-9ad0-a11e35722ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-自己实现迭代器对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-自己实现迭代器对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-自己实现迭代器对象3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-斐波纳妾数列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-使用迭代器实现斐波纳妾数列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-生成器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-生成器改造使用next接收.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-生成器改造使用send接收.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/.idea/0501.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0501/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/01-udp多线程收发数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/02-使用进程实现多任务.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/03-多进程之间通过Quene通信.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/04-线程池的使用.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/05-多线程拷贝文件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/06-多线程拷贝文件添加进度.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/__future__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/__phello__.foo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_bootlocale.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_collections_abc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_compat_pickle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_compression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_dummy_thread.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_markupbase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_osx_support.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_pydecimal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_pyio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_sitebuiltins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_strptime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_sysconfigdata_m_linux_x86_64-linux-gnu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_threading_local.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/_weakrefset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/abc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/aifc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/antigravity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/argparse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/ast.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/asynchat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/asyncore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/base64.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/bdb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/binhex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/bisect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/bz2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/cProfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/calendar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/cgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/cgitb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/chunk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/cmd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/code.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/codecs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/codeop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/colorsys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/compileall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/configparser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/contextlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/copyreg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/crypt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/csv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/datetime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/decimal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/difflib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/dis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/doctest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/dummy_threading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/enum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/filecmp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/fileinput.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/fnmatch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/formatter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/fractions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/ftplib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/functools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/genericpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/getopt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/getpass.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/gettext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/glob.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/gzip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/hashlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/heapq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/hmac.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/imaplib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/imghdr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/imp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/inspect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/io.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/ipaddress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/keyword.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/linecache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/locale.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/lzma.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/macpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/macurl2path.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/mailbox.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/mailcap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/mimetypes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/modulefinder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/netrc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/nntplib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/ntpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/nturl2path.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/numbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/opcode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/operator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/optparse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/os.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pathlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pdb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pickle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pickletools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pipes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pkgutil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/platform.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/plistlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/poplib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/posixpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pprint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pstats.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pty.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/py_compile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pyclbr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/pydoc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/quopri.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/random.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/re.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/reprlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/rlcompleter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/runpy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sched.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/secrets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/selectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/shelve.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/shlex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/shutil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/signal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/site.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sitecustomize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/smtpd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/smtplib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sndhdr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/socket.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/socketserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sre_compile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sre_constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sre_parse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/ssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/stat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/statistics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/string.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/stringprep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/struct.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/subprocess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sunau.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/symbol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/symtable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/sysconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/tabnanny.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/tarfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/telnetlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/tempfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/textwrap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/this.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/threading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/timeit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/token.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/tokenize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/trace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/traceback.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/tracemalloc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/tty.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/turtle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/typing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/uu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/uuid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/warnings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/wave.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/weakref.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/webbrowser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/xdrlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/zipapp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/test/zipfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0501/笔记.md" beforeDir="false" />
-    </list>
+    <list default="true" id="74e50c3a-0be2-4934-9ad0-a11e35722ac6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08-生成器改造使用send接收.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -271,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,11 +89,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0504协程06-11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -318,25 +126,19 @@
       <option name="presentableId" value="Default" />
       <updated>1556809992760</updated>
       <workItem from="1556809994011" duration="10152000" />
+      <workItem from="1556952902618" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10152000" />
+    <option name="totallyTimeSpent" value="10170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="858" y="27" width="1400" height="973" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08234421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08382789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -344,11 +146,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,13 +207,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-生成器改造.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/07-生成器改造.py" />
     <entry file="file://$PROJECT_DIR$/06-生成器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -420,6 +222,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08-生成器改造使用send接收.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -427,13 +236,6 @@
             <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-生成器改造使用send接收.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
