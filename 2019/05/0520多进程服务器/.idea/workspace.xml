@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e84e8545-88ad-49f4-841f-912376dfb3c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../0516http协议和多线程/01-根据用户需求返回页面.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0516http协议和多线程/02-返回准确页面消息.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0516http协议和多线程/html/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0516http协议和多线程/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/0520多进程服务器.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多进程服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-多线程服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-协程服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-但线程非阻塞.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-单进程非阻塞多客端server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-单线程非阻塞优化版.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0512正则表达式和http协议/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0512正则表达式和http协议/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e84e8545-88ad-49f4-841f-912376dfb3c1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,17 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06-单线程非阻塞优化版.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0524GIL" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -118,16 +91,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558363879667</updated>
-      <workItem from="1558363881509" duration="4105000" />
+      <workItem from="1558363881509" duration="6551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4105000" />
+    <option name="totallyTimeSpent" value="6551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="599" y="27" width="1400" height="973" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09124629" />
@@ -186,13 +158,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-但线程非阻塞.py">
+    <entry file="file://$PROJECT_DIR$/06-单线程非阻塞优化版.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -203,10 +172,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-单线程非阻塞优化版.py">
+    <entry file="file://$PROJECT_DIR$/04-但线程非阻塞.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="386">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
