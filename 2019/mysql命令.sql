@@ -112,7 +112,30 @@
     insert into students (name, gender) values('王旭','五大'),('王旭2','五大2')
 
 ----修改
-    --update 表名 set 列1=值1,列2=值2, where id=1
+    --update 表名 set 列1=值1,列2=值2, where id=1；
+    update student set gender=2 where id=1
+
+---删除数据
+    ---delete from 表名字 where 条件;
+    delete from students where id=1;
+
+    ---逻辑删除
+    alter table students add is_delete bit default 0;
+
+
+
+----查询基本使用
+    --查询所有列
+    --select * from 表名字
+    select * from students;
+    select * from students where name='focusdroid';
+    select * from students where id > 5;
+
+
+    select name,gender from students;
+
+
+    select name as 姓名,gender as 性别 from students;
 
 
 
