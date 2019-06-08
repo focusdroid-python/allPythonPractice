@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0179b14c-e6be-4444-b658-e2a49c33e0da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mysql命令.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql命令.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../mysql命令.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="288" column="4" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="73" />
+            <state relative-caret-position="444">
+              <caret line="315" column="6" selection-start-line="315" selection-start-column="6" selection-end-line="315" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -71,7 +72,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="893" />
+    <option name="x" value="569" />
     <option name="y" value="27" />
     <option name="width" value="1400" />
     <option name="height" value="973" />
@@ -82,8 +83,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,18 +120,19 @@
       <option name="presentableId" value="Default" />
       <updated>1559409736894</updated>
       <workItem from="1559409738230" duration="14829000" />
-      <workItem from="1559891176503" duration="10089000" />
+      <workItem from="1559891176503" duration="10760000" />
+      <workItem from="1559961881452" duration="3122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24918000" />
+    <option name="totallyTimeSpent" value="28711000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="893" y="27" width="1400" height="973" extended-state="0" />
+    <frame x="569" y="27" width="1400" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05563798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05637982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -169,8 +171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../mysql命令.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="288" column="4" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="73" />
+        <state relative-caret-position="444">
+          <caret line="315" column="6" selection-start-line="315" selection-start-column="6" selection-end-line="315" selection-end-column="6" />
         </state>
       </provider>
     </entry>

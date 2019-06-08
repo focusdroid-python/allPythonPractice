@@ -290,6 +290,31 @@
 
 
 
+---- 链接查询
+    --内链接[取交集]
+    -- inner join ...on
+    --select ... from 表A inner join 表B；
+    select * from students inner join classes on cls_id;
+
+    --使用students中的cls_id 对用classes表中的
+    select * from students inner join classes on students.cls_id=classes.id;
+
+    --按照要求现实姓名班级
+    select student.*, classes.name from stutents as s inner join classes as c on s.cls_id=c.id;
+
+    --按照班级排序 order by
+    select student.*, classes.name from stutents as s inner join classes as c on s.cls_id=c.id order by c.name;
+
+
+    ---- left join  [谁写在left join左边就以谁为基准,没有就为null]
+    select * from students as s left join classes as c on s.cls_id=c.id;
+
+    -- 查询没有班级的学生
+    select * from students as s left join classes as c on s.cls_id=c.id where c.id is null;
+
+---子关联
+    --
+
 
 
 
