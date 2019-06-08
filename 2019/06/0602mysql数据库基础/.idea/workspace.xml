@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../mysql命令.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="314" column="6" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="6" />
+            <state relative-caret-position="532">
+              <caret line="368" column="51" selection-start-line="368" selection-start-column="51" selection-end-line="368" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -57,6 +57,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>''</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -80,9 +88,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="553" />
+    <option name="x" value="656" />
     <option name="y" value="27" />
-    <option name="width" value="1400" />
+    <option name="width" value="1603" />
     <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -129,18 +137,18 @@
       <updated>1559409736894</updated>
       <workItem from="1559409738230" duration="14829000" />
       <workItem from="1559891176503" duration="10760000" />
-      <workItem from="1559961881452" duration="6724000" />
+      <workItem from="1559961881452" duration="17283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32313000" />
+    <option name="totallyTimeSpent" value="42872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="553" y="27" width="1400" height="973" extended-state="0" />
+    <frame x="656" y="27" width="1603" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05637982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.049000643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,8 +194,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../mysql命令.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="314" column="6" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="6" />
+        <state relative-caret-position="532">
+          <caret line="368" column="51" selection-start-line="368" selection-start-column="51" selection-end-line="368" selection-end-column="51" />
         </state>
       </provider>
     </entry>

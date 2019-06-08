@@ -326,7 +326,47 @@
 
 
 
+	insert into goods values(0, 'r510vc 15.6英寸笔记本', '笔记本', '华硕', 3399, default, default);
+	insert into goods values(0, 'y400n 14.0英寸笔记本', '笔记本, '联想', 4999, default, default);
+	insert into goods values(0, 'g15th 15.6英寸笔记本, '游戏本', '雷神', 3399, default, default);
+	insert into goods values(0, 'x550cc 15.6英寸笔记本', '笔记本', '华硕', 2799, default, default);
+	insert into goods values(0, 'x240 超极本', '超极本', '华硕', 4880, default, default);
+	insert into goods values(0, 'u330p 13.3英寸超极本', '超级本', '联想', 4299, default, default);
+	insert into goods values(0, 'svp13226scb 触控笔记本', '超级本', '索尼', 7999, default, default);
+	insert into goods values(0, 'ipad mini 7.9英寸平板电脑', '平板电脑', '苹果', 1998, default, default);
+	insert into goods values(0, 'ipad air 9.7英寸平板电脑', '平板电脑', '苹果', 3388, default, default);
+	insert into goods values(0, 'ipad air 9.7英寸平板电脑', '平板电脑', '苹果', 3388, default, default);
+    insert into goods values(0, '华为P30', '服务器', '华为', 3200, 1,0);
 
+
+    --查询每种里边最贵的信息
+    -- left join 以左边为基准找符合左边信息的
+    select * from (select cate_name, max(price) as max_price from goods group by cate_name) as g_new left join goods as g on g_new.cate_name=g.cate_name and g_new.max_price = g.price;
+
+    -- 查询每种里边最贵的信息[只查看名字，描述，价格]
+    select g_new.cate_name, g.name, g.price from (select cate_name, max(price) as max_price from goods group by cate_name) as g_new left join goods as g on g_new.cate_name=g.cate_name and g_new.max_price = g.price order by g_new.cate_name;
+
+----拆表
+    --1.先建一张新表
+    create table if not exists goods_cates(
+        id int unsigned primary key auto_increment,
+        name varchar(40) not null
+    )
+    --2.把查到的cate_name放在新表里边
+--     select cate_name from goods group by cate_name;
+    -- 只把名字写到新表 [不用values]
+    insert into goods_cates (name) select cate_name from goods group by cate_name;
+    --关联两个表中的值
+    update goods as g inner join goods_cates as c g.cate_name=c.name set g.cate_name=c.id
+    -- 修改goods表中的cate_name为cate_id
+    alter table goods change cate_name cate_id int unsigned not null;
+
+    --关联外键
+    -- //如果1452，就是关联的外键超出范围了
+    alter table goods add foreign key (cate_id) references goods_cates(id);
+
+    --取消外键
+    alter table goods drop foreign key CONSTRAINT--【来自show create database goods】
 
 
 
