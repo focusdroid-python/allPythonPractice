@@ -313,8 +313,16 @@
     select * from students as s left join classes as c on s.cls_id=c.id where c.id is null;
 
 ---子关联
-    --
+    --把一张表当成两张表，做关联
+    select * from china as c inner join china as city on c.id=city.p_id having c.name='陕西省';
 
+
+    select * from china where p_id=(select id from china where name='陕西省'); -- 子查询
+
+
+---子查询
+    --select里边嵌套select
+    select * from students where height=(select max(height) from students);
 
 
 
