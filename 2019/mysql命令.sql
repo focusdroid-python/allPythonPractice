@@ -369,6 +369,83 @@
     alter table goods drop foreign key CONSTRAINT--【来自show create database goods】
 
 
+    ---创建视图
+    --
+        create view 视图名称 as select 语句
+
+        -- 查看视图
+        show tables;
+        -- 使用视图
+        select * from v_goods_info;
+        --删除视图
+        -- select view 视图名称
+        --创建视图
+        create view v_goods_info as select g.* from goods as g left join goods_cates as g_c on g.cate_id=g_c.id left join goods_brands as g_b on g.brand_id=g_b.id;
+
+        --视图的作用
+        --0.提高了重用性，就像一个函数
+        --1.对数据库重构，不影响程序运行
+        --2.提高安全性能，可以对不同用户
+        --3.让数据更加清晰
+
+    ---事务
+        --所谓是事务，就是一个操作序列，这些操作要么执行，要么不执行，他是一个不可分割的单位
+        --事物的四大特性（ACID）
+        --0.原子性
+        --1.一致性
+        --2.隔离性
+        --3.持久性
+
+        ---开启事务
+        -- 1. start transaction
+        -- 2. select balance from checking where customer_id=10332255
+        -- 3. update checking set balance = balance - 200.00 where customer_id=1023553;
+        -- 4. update saving set balance = balance + 200.00 where customer_id=1023553;
+        -- 5. commit
+
+        ---使用事务
+        --1. use jing_dong (使用数据库)
+        --2. show create table goods
+        --3. begin / start transaction (开启事务)
+        --4. 将增删改处理完成之后， commit 提交
+        -- rollback (回滚事务，回到未commit之前在缓存中的数据)
+
+        ---索引
+        --查看索引
+        -- show index from 表名
+        --建张表，写入十万条数据
+        --开启时间检测
+        set profiling=1;
+        -- 查找第一万台第一万条数据
+        select * from test_index where title='ha-99999';
+        --查看执行时间
+        show profiles;
+
+        --为表title_index的title列建立索引
+--         create index 索引名称 on 表名(字段名称(长度));
+        -- 如果字段是字符串，需要制定长度，建议长度与定义字段长度一致
+        -- 字段类型如果不是字符串，可以不填写长度部分
+        create index titlt_index on test_index(title(10));
+
+        --执行查询语句
+        select * from test_index where title='ha-99999';
+
+        show profiles;
+
+        --删除索引
+        drop index
+
+
+----权限管理
+    --查看那所有用户
+    select host,user from user;
+    select host,user,authorization from user;
+
+    -- 创建用户和授权
+    grant 权限列表 on 数据库 to '用户名'@'访问主机' identified by '密码';
+
+
+
 
 
 

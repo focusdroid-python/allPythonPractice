@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff601a4c-fb7a-48d7-83f6-a16fa15f4eea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-初始pymysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-pymysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-使用面向对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-使用commit提交到i数据库操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-sql注入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-sql防注入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../python操作mysql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0602mysql数据库基础/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0602mysql数据库基础/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff601a4c-fb7a-48d7-83f6-a16fa15f4eea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06-sql防注入.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="88">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -108,8 +99,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="456" />
-    <option name="y" value="40" />
+    <option name="x" value="756" />
+    <option name="y" value="27" />
     <option name="width" value="1657" />
     <option name="height" value="973" />
   </component>
@@ -134,8 +125,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -165,18 +157,17 @@
       <option name="presentableId" value="Default" />
       <updated>1559992684429</updated>
       <workItem from="1559992685771" duration="1411000" />
-      <workItem from="1559995048862" duration="6666000" />
+      <workItem from="1559995048862" duration="8183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8077000" />
+    <option name="totallyTimeSpent" value="9594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="456" y="40" width="1657" height="973" extended-state="0" />
-    <editor active="true" />
+    <frame x="756" y="27" width="1657" height="973" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.042990655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10404985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06-sql防注入.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
