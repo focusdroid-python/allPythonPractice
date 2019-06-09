@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636d11d2-3387-49e0-91b6-f9d880e1570a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/0608使用pymysql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0608使用pymysql/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysql命令.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql命令.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mysql命令.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="444" column="4" selection-start-line="444" selection-start-column="4" selection-end-line="444" selection-end-column="4" />
+            <state relative-caret-position="458">
+              <caret line="470" column="23" selection-start-line="470" selection-start-column="23" selection-end-line="470" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -90,6 +89,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -120,12 +120,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560053855778</updated>
-      <workItem from="1560053857102" duration="8118000" />
+      <workItem from="1560053857102" duration="10255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8118000" />
+    <option name="totallyTimeSpent" value="10255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="756" y="27" width="1657" height="973" extended-state="0" />
@@ -178,8 +178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mysql命令.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="444" column="4" selection-start-line="444" selection-start-column="4" selection-end-line="444" selection-end-column="4" />
+        <state relative-caret-position="458">
+          <caret line="470" column="23" selection-start-line="470" selection-start-column="23" selection-end-line="470" selection-end-column="23" />
         </state>
       </provider>
     </entry>

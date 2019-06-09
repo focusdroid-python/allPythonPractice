@@ -442,7 +442,34 @@
     select host,user,authorization from user;
 
     -- 创建用户和授权
-    grant 权限列表 on 数据库 to '用户名'@'访问主机' identified by '密码';
+    -- grant 权限列表 on 数据库 to '用户名'@'访问主机' identified by '密码';
+     --1。使用root登陆, 再输入密码
+     mysql -uroot -p
+     --2。添加权限
+     grant select on jing_dong.* to 'laowang'@'localhost' identified by '123456';
+     grant all privileges on jing_dong.* to 'laowang'@'localhost' identified by '123456';
+     --3。 查看添加的权限
+     select host,user,authorization from user;
+
+     ---修改权限
+     grant 新权限 on 数据库 to 账户@主机 with grant option;
+     --刷新权限
+     flush privileges;
+
+     --修改密码
+     use mysql;
+     update user set authentication_string=password('密码') where user='用户名';
+     flush privileges;
+
+     --如果在本地使用连不上，
+     --打开 vi /etc/mysql/mysql.conf.d/mysql.cnf
+     --注释  bind-address    - 127.0.0.1
+     -- sudo service mysql restart
+
+
+     --删除账户
+     drop user '用户'@'主机'
+
 
 
 
