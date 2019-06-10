@@ -461,6 +461,10 @@
      update user set authentication_string=password('密码') where user='用户名';
      flush privileges;
 
+     ---创建一个服务器上所有库所有表的权限，
+     grant peplication slave on *.* to 'slavr'@'%' identified by 'slave';
+     flush privileges;
+
      --如果在本地使用连不上，
      --打开 vi /etc/mysql/mysql.conf.d/mysql.cnf
      --注释  bind-address    - 127.0.0.1
@@ -468,11 +472,58 @@
 
 
      --删除账户
+    --drop user '用户名'@'%' --%代表root权限
      drop user '用户'@'主机'
 
+     --mysql主从服务器
+     --将主服务器同步数据到其他服务器上
+     --1. 数据备份
+     mysqldump -uroot -p 数据库名 > python.sql
+
+
+    --------恢复数据库
+    --1。 连接数据库,创建新的数据库
+    --2. 退出连接，执行如下命令
+    mysql -uroot -p 新数据库名 < python.sql
 
 
 
+    --4.1 在主服务器上执行命令
+    mysqldump -uroot -p --all-databases 00lock-all-tables > ~/master_db.sql
+    --输入密码
+
+
+    ---4.2在从服务器上，执行命令
+    mysql -root -pmysql < master_db.sql
+
+    --4.3配置主服务器
+    sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+    ---找到83行,,取消注释
+    --server-id     =2
+    -- log_bing     = /var/log/mysql/mysql-bin.log
+
+    ---4.4重启服务器
+    sudo service mysql restart
+
+    ---注意：从服务器上的server-id要和主服务器不一样就行
+    --从服务器 service=1
+
+    --4.5登入主服务器中的mysql创建从服务器同步数据使用的账号
+    --mysql -uroot -p
+
+    GRANT PEPLICATION SLAVE ON *.* TO 'slave'@'%' identified by 'slave';
+    flush privileges;
+
+    --4.6在从服务器上
+    change master to master_host='主服务器ip', master_user='slave', master_password='slave',
+    master_log_file='mysql-bin.000006', master_log_pos=590;
+    --上面的master_log_file=show master status中的File的值        master_log_pos,,也是show master status中的position
+
+    --4。7 从服务器show slave status
+    -- show slave status \G;
+    --slave_IO_Runing YES
+    --Slave_SQL_Runing YES
+    --表示同步成功
 
 
 
