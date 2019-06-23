@@ -1,3 +1,11 @@
+
+    ****编码与解码****
+    ```
+        import urllib
+        
+        urllib.parse.quote('中国') // %E4%B8%AD%E5%9B%BD
+        urllib.parse.unquote('%E4%B8%AD%E5%9B%BD') // 中国
+    ```
 ### log日志级别
     > 0. DEBUG      详细信息，通常问题只出现在诊断问题上
     > 1. INFO       确认一切按照预期运行
