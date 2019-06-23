@@ -31,3 +31,12 @@
             pip freeze [显示格式,在发布的时候又用]
         ```
     ***ctrl + h --> 显示隐藏文件夹***
+    ****编码与解码****
+    ```
+        import urllib
+        
+        urllib.parse.quote('中国') // %E4%B8%AD%E5%9B%BD
+        urllib.parse.unquote('%E4%B8%AD%E5%9B%BD') // 中国
+        
+        
+    ```
