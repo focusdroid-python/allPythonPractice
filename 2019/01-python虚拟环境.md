@@ -58,6 +58,8 @@
         
         修改setting.py中的INSTALLED_APPS
         建立应用和项目之间的联系，需要对应用进行注册
+        
+        python manage.py runserver
    ```
     
     

@@ -8,7 +8,7 @@ def main():
 		send_data = input("请输入您要发送的内容: ")
 		if send_data == 'exit':
 			break
-		else
+		else:
 			udp_socket.sendto(send_data.encode("utf-8"), ("192.168.1.109", 8080))
 
 
