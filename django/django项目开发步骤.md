@@ -69,6 +69,54 @@
             return render(request, 'booktest/index.html')
         ```
     > 运行项目 python manage.py runserver
+    > 修改404错误页面
+        You're seeing this error because you have DEBUG = True in your Django settings file. Change that to False, and Django will display a standard 404 page.
+        就是将settings里面的DEBUG = false
+        并且ALLOWED_HOSTS = ['*']
+        你也可以自己定义404页面，
+        在templates/新建404.html系统自动会将这个页面显示
+        可以用resquest_path获取用户访问的路径
+    > 500页面
+        在templates/新建500.html系统自动会将这个页面显示
+## 捕获URL参数
+    views.py
+        def show_arg(request, num):
+            return HttpResponse(num)
+    urls.py
+        url(r'^showarg(\d+)$', views.show_arg), # 捕获url参数
+    访问/showarg11
+    > 2. 关键字参数
+        ?p<组名>
+        关键字参数，视图中参数名必须和正则表达式组名一致
+        views.py
+            def show_many(request, num):
+                return HttpResponse(num)
+        urls.py
+            url(r'^showmany(?P<number>\d+)$', views.show_many ), # 捕获url参数,关键字参数
+        ?p<组名>
+        关键字参数，视图中参数名必须和正则表达式组名一致 
+## 登录案例
+    request对象属性
+        # request.POST QueryDict
+        # request.GET
+            # 1. 获取提交的用户名密码
+            username = request.POST.get('username')
+            password = request.POST.get('password')
+            print(username+':'+password)
+            if username == 'tree' and password == '123456':
+                # 用户名正确，跳转首页
+                return redirect('/index')
+            else:
+                # 用户名或密码错误，跳转登录页面
+                return redirect('/login')
+    如果有CSRF错误 注释settings/MIDDLEWARE_CLASSES元祖的 'django.middleware.csrf.CsrfViewMiddleware',
+
+## 在项目中使用静态文件(项目具体文件在test3中)
+    在根目录新建static文件夹
+    在settings中最底部添加
+        STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] # 是静态文件的保存目录
+    
+         
     
     
     

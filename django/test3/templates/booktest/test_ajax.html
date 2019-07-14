@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+</head>
+<body>
+<div>
+    <input type="button" id="btn" value="ajax请求">
+</div>
+</body>
+</html>
+<script type="application/javascript" src="/static/js/jquery.js"></script>
+<script type="application/javascript">
+
+$(function () {
+    $('#btn').click(function(){
+        alert('1')
+    $.ajax({
+        'url': '/ajax_handle',
+        'dataType': 'json',
+        'async': true,
+        success: function (data) {
+          // console.log(data)
+            alert(data.code)
+            $('#btn').css({'background-color':'red'})
+        }
+    })
+        alert('3')
+})
+})
+
+</script>
