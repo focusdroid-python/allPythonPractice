@@ -115,7 +115,42 @@
     在根目录新建static文件夹
     在settings中最底部添加
         STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] # 是静态文件的保存目录
-    
+        
+## ajax登录案例
+    > 1. 首先分析出请求地址时需要携带的参数
+    > 2. 视图函数处理完成之后，所返回json的格式
+
+## 设置cookie
+    > 1. 需要一个HttpResponse对象或者它子类对象
+        ```
+        from datetime import datetime, timedelta
+            # /set_cookie
+            def set_cookie(request):
+                '''设置cookie'''
+                response =  HttpResponse('设置cookie')
+                # 设置多少妙之后过期
+                response.set_cookie('num', 1, max_age=14*24*3600)
+                # 设置多少天之后过期
+    r           esponse.set_cookie('num', 1, expires=datetime.now().timedelta(days=14))
+                return response
+            # /get_cookie
+            def get_cookie(request):
+                '''获取cookie'''
+                num = request.COOKIES['num']
+                return HttpResponse(num)
+
+        ```
+## 设置session
+    设置session session.request.session['username'] = 'wangxu'
+    获取session session.request.session['username']
+    清楚所有session，在存储中删除值部分
+        request.session.clear()
+    清除session数据，在存储中删除session的整条数据
+        request.session.flush()
+    删除session中的指定键及值，在存储中只删除对应的值
+        del request.session['key']
+    设置session过期时间，如果没有指定时间则两个星期后过期
+        request.session.set_expiry(value)
          
     
     

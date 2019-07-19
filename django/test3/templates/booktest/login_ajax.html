@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录ajax</title>
+</head>
+<body>
+<div id="box">
+        用户名: <input type="text" id="username">
+        密码: <input type="password" id="password">
+        <input type="button" id="btnLogin" value="登录">
+</div>
+</body>
+</html>
+<script type="application/javascript" src="/static/js/jquery.js"></script>
+<script>
+    $('#btnLogin').click(function () {
+        username = $('#username').val()
+        password = $('#password').val()
+        $.ajax({
+        'url': '/login_ajax_check',
+        'type': 'post',
+         'data': {
+             username: username,
+             password: password
+         },
+        success: function (data) {
+            if (data.res == 0) {
+                console.log('login error')
+            } else {
+                console.log('login success')
+            }
+        }
+    })
+    })
+</script>
