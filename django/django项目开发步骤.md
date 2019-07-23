@@ -171,6 +171,9 @@
         {% block 块名 %}
             可以写内容也可以不写内容
         {% endblock 块名 %}
+        
+## 图片验证码
+    pip install Pillow==3.4.1
     
     
     
