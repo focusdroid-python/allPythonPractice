@@ -105,9 +105,17 @@ def verify_code(request):
     return HttpResponse(buf.getvalue(), 'image/png')
 
 
+def url_reverse(request):
+    '''url反向解析页面'''
+    return render(request, 'booktest/url_reverse.html')
 
+def show_arg(request, a,b):
+    '''url反向解析页面捕获参数'''
+    return HttpResponse('页面参数='+a+':'+b)
 
-
+def show_kwargs(request, c, d):
+    '''捕获关键字参数'''
+    return HttpResponse(c+':'+d)
 
 
 

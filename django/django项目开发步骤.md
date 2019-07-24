@@ -174,6 +174,23 @@
         
 ## 图片验证码
     pip install Pillow==3.4.1
+    pillow安装报错：
+        https://blog.csdn.net/shaququ/article/details/54292017
+
+## url反向代理
+    在test4/test4/urls.py中： namespace一般和项目文件夹名字一致
+        url(r'^', include('booktest.urls', namespace='booktest')),
+        
+## django静态资源路径
+    # 设置访问静态文件的地址
+    STATIC_URL = '/static/'
+    # 设置静态文件的物理目录
+    STATICFILEs_DIRS = [os.path.join(BASE_DIR, 'static')]
+    ## 使用setting获取图片路径（静态资源）
+    from django.conf import settings
+    print(settings.STATICFILES_FINDERS)
+        ('django.contrib.staticfiles.finders.FileSystemFinder', 'django.contrib.staticfiles.finders.AppDirectoriesFinder')
+
     
     
     
