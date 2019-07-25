@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'booktest.middleware.BlockIPSMiddleware', # 注册中间见类
 ]
 
 ROOT_URLCONF = 'test5.urls'

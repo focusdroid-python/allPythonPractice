@@ -6,32 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="667836ef-7816-4415-a93b-d9d9c54cb5c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/django/test4/templates/booktest/url_reverse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/.idea/test5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/booktest/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/static/image/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/templates/booktest/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/test5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/test5/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/test5/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/test5/test5/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/test5/booktest/middleware.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django/django项目开发步骤.md" beforeDir="false" afterPath="$PROJECT_DIR$/django/django项目开发步骤.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/test4/booktest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/test4/booktest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/test4/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/test4/booktest/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/test4/test4/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/test4/test4/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/test5/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/test5/booktest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/test5/test5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/test5/test5/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/django/django项目开发步骤.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="354">
-                <caret line="192" selection-start-line="192" selection-end-line="192" />
+              <first_editor relative-caret-position="500">
+                <caret line="239" column="38" selection-start-line="239" selection-start-column="38" selection-end-line="239" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,10 +47,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/test5/booktest/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/test5/test5/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="98" column="6" lean-forward="true" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+            <state relative-caret-position="407">
+              <caret line="42" column="10" selection-start-line="42" selection-end-line="42" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -79,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/test5/booktest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -118,8 +106,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -180,14 +168,15 @@
         <option value="$PROJECT_DIR$/django/test4/templates/booktest/url_reverse.html" />
         <option value="$PROJECT_DIR$/django/test5/test5/urls.py" />
         <option value="$PROJECT_DIR$/django/test5/templates/booktest/index.html" />
-        <option value="$PROJECT_DIR$/django/test5/test5/settings.py" />
         <option value="$PROJECT_DIR$/django/test5/booktest/views.py" />
+        <option value="$PROJECT_DIR$/django/test5/booktest/middleware.py" />
+        <option value="$PROJECT_DIR$/django/test5/test5/settings.py" />
         <option value="$PROJECT_DIR$/django/django项目开发步骤.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
+    <option name="x" value="425" />
     <option name="y" value="27" />
     <option name="width" value="1657" />
     <option name="height" value="972" />
@@ -314,17 +303,19 @@
       <workItem from="1561868089185" duration="70391000" />
       <workItem from="1563682765253" duration="17477000" />
       <workItem from="1563984189926" duration="1078000" />
+      <workItem from="1564066840407" duration="267000" />
+      <workItem from="1564068826162" duration="2572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113595000" />
+    <option name="totallyTimeSpent" value="116434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="441" y="27" width="1657" height="972" extended-state="0" />
+    <frame x="425" y="27" width="1657" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1470405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15077882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,13 +342,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///etc/apt/sources.list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/test1/booktest/migrations/0002_heroinfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -697,25 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/test5/booktest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/test5/static/image/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/test5/templates/booktest/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/test5/test5/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -726,28 +691,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/test5/test5/settings.py">
+    <entry file="file://$PROJECT_DIR$/django/test5/booktest/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="98" column="6" lean-forward="true" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/django/test5/templates/booktest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/test5/static/image/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/django/test5/booktest/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/django/test5/test5/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="42" column="10" selection-start-line="42" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/test5/booktest/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django/django项目开发步骤.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="354">
-            <caret line="192" selection-start-line="192" selection-end-line="192" />
+          <first_editor relative-caret-position="500">
+            <caret line="239" column="38" selection-start-line="239" selection-start-column="38" selection-end-line="239" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>

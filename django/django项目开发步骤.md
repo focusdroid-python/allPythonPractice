@@ -191,7 +191,53 @@
     print(settings.STATICFILES_FINDERS)
         ('django.contrib.staticfiles.finders.FileSystemFinder', 'django.contrib.staticfiles.finders.AppDirectoriesFinder')
 
+## 中间件
+    # 中间件函数是django框架给我们预留的函数接口，让我们可以敢于请求和应答过程
+    # 获取客户端ip
+   request.META['REMOTE_ADDR']
+   # 禁止ip访问页面
+    EXCLUDE_IPS = ['192.168.1.105']
+    def index(request):
+        print(settings.STATICFILES_FINDERS)
+        user_ip = request.META['REMOTE_ADDR']
+        print('客户端的ip： '+user_ip)
+        if user_ip in EXCLUDE_IPS:
+            return HttpResponse('<h1>禁止访问</h1>')
+        return render(request, 'booktest/index.html')
+    # 使用装饰器
+    EXCLUDE_IPS = ['192.168.1.105']
+    def blocked_ips(view_func):
+        def wrapper(request, *view_args, **view_kwargs):
+            user_ip = request.META['REMOTE_ADDR']
+            if user_ip in EXCLUDE_IPS:
+                return HttpResponse('<h1>禁止访问</h1>')
+            else:
+                return view_func(request, *view_args, **view_kwargs)
     
+        return blocked_ips
+        
+    ## 使用middleware限制ip访问：
+        在test5/booktest新建middleware.py
+        class BlockedIPSMiddleware(object):
+            '''中间'''
+            EXCLUDE_IPS = ['192.168.1.105']
+            def process_view(self, request, view_func, *view_args, **view_kwargs):
+                ''' 视图函数调用之前'''
+                user_ip = request.META['REMOTE_ADDR']
+                if user_ip in EXCLUDE_IPS:
+                    return HttpResponse('<h1>禁止访问</h1>')
+                else:
+                    return view_func(request, *view_args, **view_kwargs)
+                    
+        注册middleware(settings/MIDDLEWARE):
+            'booktest.middleware.BlockIPSMiddleware', # 注册中间见类
+            
+    ## django预留的中间件函数
+    __init__: 服务器相应第一个请求的时候调用
+    precess_request: 在产生request对象，进行url匹配之前调用
+    process_view: 在url匹配之后，调用视图函数
+    precess_response: 视图函数调用之后，内容返回给浏览器之前
+    precess_exception:视图函数出现异常，会调用这个函数
     
     
     
